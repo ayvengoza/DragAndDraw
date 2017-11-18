@@ -7,11 +7,15 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Created by ayven on 18.11.2017.
  */
 
 public class DragAndDrawFragment extends Fragment {
+
     public static DragAndDrawFragment newInstance(){
         Bundle args = new Bundle();
         DragAndDrawFragment fragment = new DragAndDrawFragment();
@@ -25,4 +29,6 @@ public class DragAndDrawFragment extends Fragment {
         View v = inflater.inflate(R.layout.fragment_drag_and_draw,container,false);
         return v;
     }
+
+
 }
